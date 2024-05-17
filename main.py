@@ -1,13 +1,13 @@
-print('Я конфликтую')
+print('Я конфликтую в основной ветке')
 
-for i in range(8):
+for i in range(5):
     print('слово')
 
-a, b = 9, 8
+x, y = 10, 7
 
-if a > b:
-    print('a больше, чем b')
-elif b > a:
-    print('b больше, чем a')
+if x > y:
+    print('x больше, чем y')
+elif y > x:
+    print('y больше, чем x')
 else:
-    print('a равно b')
+    print('x равно y')
